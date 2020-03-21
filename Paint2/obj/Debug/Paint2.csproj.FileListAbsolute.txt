@@ -1,0 +1,19 @@
+C:\Users\Nguyen Quang Tho\OneDrive\code visual 2017\c_sharp\Giua ki LTW\Paint2\bin\Debug\Paint2.exe.config
+C:\Users\Nguyen Quang Tho\OneDrive\code visual 2017\c_sharp\Giua ki LTW\Paint2\bin\Debug\Paint2.exe
+C:\Users\Nguyen Quang Tho\OneDrive\code visual 2017\c_sharp\Giua ki LTW\Paint2\bin\Debug\Paint2.pdb
+C:\Users\Nguyen Quang Tho\OneDrive\code visual 2017\c_sharp\Giua ki LTW\Paint2\obj\Debug\Paint2.Form1.resources
+C:\Users\Nguyen Quang Tho\OneDrive\code visual 2017\c_sharp\Giua ki LTW\Paint2\obj\Debug\Paint2.Properties.Resources.resources
+C:\Users\Nguyen Quang Tho\OneDrive\code visual 2017\c_sharp\Giua ki LTW\Paint2\obj\Debug\Paint2.csproj.GenerateResource.Cache
+C:\Users\Nguyen Quang Tho\OneDrive\code visual 2017\c_sharp\Giua ki LTW\Paint2\obj\Debug\Paint2.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Quang Tho\OneDrive\code visual 2017\c_sharp\Giua ki LTW\Paint2\obj\Debug\Paint2.exe
+C:\Users\Nguyen Quang Tho\OneDrive\code visual 2017\c_sharp\Giua ki LTW\Paint2\obj\Debug\Paint2.pdb
+C:\Users\Nguyen Quang Tho\OneDrive\code visual 2017\c_sharp\Giua ki LTW\Paint2\obj\Debug\Paint2.csprojResolveAssemblyReference.cache
+E:\lập trình windows\Giua ki LTW\Paint2\bin\Debug\Paint2.exe.config
+E:\lập trình windows\Giua ki LTW\Paint2\bin\Debug\Paint2.exe
+E:\lập trình windows\Giua ki LTW\Paint2\bin\Debug\Paint2.pdb
+E:\lập trình windows\Giua ki LTW\Paint2\obj\Debug\Paint2.csprojAssemblyReference.cache
+E:\lập trình windows\Giua ki LTW\Paint2\obj\Debug\Paint2.Form1.resources
+E:\lập trình windows\Giua ki LTW\Paint2\obj\Debug\Paint2.Properties.Resources.resources
+E:\lập trình windows\Giua ki LTW\Paint2\obj\Debug\Paint2.csproj.GenerateResource.cache
+E:\lập trình windows\Giua ki LTW\Paint2\obj\Debug\Paint2.exe
+E:\lập trình windows\Giua ki LTW\Paint2\obj\Debug\Paint2.pdb
