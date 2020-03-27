@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblTest = new System.Windows.Forms.Label();
+            this.btnFill = new System.Windows.Forms.Button();
             this.btnColor = new System.Windows.Forms.Button();
             this.cbBoxSize = new System.Windows.Forms.ComboBox();
             this.cbBoxStyle = new System.Windows.Forms.ComboBox();
@@ -44,7 +44,6 @@
             this.rbRectangle = new System.Windows.Forms.RadioButton();
             this.rbEclipse = new System.Windows.Forms.RadioButton();
             this.plDraw = new System.Windows.Forms.Panel();
-            this.btnFill = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +51,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel1.Controls.Add(this.btnFill);
-            this.panel1.Controls.Add(this.lblTest);
             this.panel1.Controls.Add(this.btnColor);
             this.panel1.Controls.Add(this.cbBoxSize);
             this.panel1.Controls.Add(this.cbBoxStyle);
@@ -67,25 +65,32 @@
             this.panel1.Controls.Add(this.rbEclipse);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1348, 75);
+            this.panel1.Size = new System.Drawing.Size(1011, 32);
             this.panel1.TabIndex = 0;
             // 
-            // lblTest
+            // btnFill
             // 
-            this.lblTest.Location = new System.Drawing.Point(888, 9);
-            this.lblTest.Name = "lblTest";
-            this.lblTest.Size = new System.Drawing.Size(332, 55);
-            this.lblTest.TabIndex = 17;
-            this.lblTest.Text = "abc";
+            this.btnFill.BackColor = System.Drawing.Color.Transparent;
+            this.btnFill.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFill.Location = new System.Drawing.Point(514, 2);
+            this.btnFill.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnFill.Name = "btnFill";
+            this.btnFill.Size = new System.Drawing.Size(22, 24);
+            this.btnFill.TabIndex = 18;
+            this.btnFill.UseVisualStyleBackColor = false;
+            this.btnFill.Visible = false;
+            this.btnFill.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnColor
             // 
             this.btnColor.BackColor = System.Drawing.Color.Red;
             this.btnColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnColor.Location = new System.Drawing.Point(649, 2);
+            this.btnColor.Location = new System.Drawing.Point(487, 2);
+            this.btnColor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnColor.Name = "btnColor";
-            this.btnColor.Size = new System.Drawing.Size(30, 30);
+            this.btnColor.Size = new System.Drawing.Size(22, 24);
             this.btnColor.TabIndex = 15;
             this.btnColor.UseVisualStyleBackColor = false;
             this.btnColor.Click += new System.EventHandler(this.btnColor_Click);
@@ -97,9 +102,10 @@
             this.cbBoxSize.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbBoxSize.FormattingEnabled = true;
             this.cbBoxSize.IntegralHeight = false;
-            this.cbBoxSize.Location = new System.Drawing.Point(513, 2);
+            this.cbBoxSize.Location = new System.Drawing.Point(385, 2);
+            this.cbBoxSize.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbBoxSize.Name = "cbBoxSize";
-            this.cbBoxSize.Size = new System.Drawing.Size(130, 30);
+            this.cbBoxSize.Size = new System.Drawing.Size(98, 25);
             this.cbBoxSize.TabIndex = 11;
             this.cbBoxSize.SelectedIndexChanged += new System.EventHandler(this.cbBoxSize_SelectedIndexChanged);
             // 
@@ -111,9 +117,10 @@
             this.cbBoxStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbBoxStyle.FormattingEnabled = true;
             this.cbBoxStyle.IntegralHeight = false;
-            this.cbBoxStyle.Location = new System.Drawing.Point(316, 2);
+            this.cbBoxStyle.Location = new System.Drawing.Point(237, 2);
+            this.cbBoxStyle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbBoxStyle.Name = "cbBoxStyle";
-            this.cbBoxStyle.Size = new System.Drawing.Size(130, 29);
+            this.cbBoxStyle.Size = new System.Drawing.Size(98, 25);
             this.cbBoxStyle.TabIndex = 9;
             this.cbBoxStyle.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.cbBoxStyle_DrawItem);
             this.cbBoxStyle.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.cbBoxStyle_MeasureItem);
@@ -129,9 +136,10 @@
             this.btnDelete.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnDelete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Location = new System.Drawing.Point(3, 3);
+            this.btnDelete.Location = new System.Drawing.Point(2, 2);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(30, 30);
+            this.btnDelete.Size = new System.Drawing.Size(22, 24);
             this.btnDelete.TabIndex = 1;
             this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
@@ -139,9 +147,10 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(452, 2);
+            this.label2.Location = new System.Drawing.Point(339, 2);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 30);
+            this.label2.Size = new System.Drawing.Size(41, 24);
             this.label2.TabIndex = 10;
             this.label2.Text = "Size";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -149,9 +158,10 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(255, 2);
+            this.label1.Location = new System.Drawing.Point(191, 2);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 30);
+            this.label1.Size = new System.Drawing.Size(41, 24);
             this.label1.TabIndex = 8;
             this.label1.Text = "Style";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -167,9 +177,10 @@
             this.rbMouse.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.rbMouse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.rbMouse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rbMouse.Location = new System.Drawing.Point(39, 3);
+            this.rbMouse.Location = new System.Drawing.Point(29, 2);
+            this.rbMouse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rbMouse.Name = "rbMouse";
-            this.rbMouse.Size = new System.Drawing.Size(30, 30);
+            this.rbMouse.Size = new System.Drawing.Size(22, 24);
             this.rbMouse.TabIndex = 14;
             this.rbMouse.UseVisualStyleBackColor = false;
             this.rbMouse.CheckedChanged += new System.EventHandler(this.rbMouse_CheckedChanged);
@@ -185,9 +196,10 @@
             this.rbLine.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.rbLine.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.rbLine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rbLine.Location = new System.Drawing.Point(75, 3);
+            this.rbLine.Location = new System.Drawing.Point(56, 2);
+            this.rbLine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rbLine.Name = "rbLine";
-            this.rbLine.Size = new System.Drawing.Size(30, 30);
+            this.rbLine.Size = new System.Drawing.Size(22, 24);
             this.rbLine.TabIndex = 9;
             this.rbLine.UseVisualStyleBackColor = false;
             this.rbLine.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
@@ -203,9 +215,10 @@
             this.rbPolygon.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.rbPolygon.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.rbPolygon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rbPolygon.Location = new System.Drawing.Point(219, 3);
+            this.rbPolygon.Location = new System.Drawing.Point(164, 2);
+            this.rbPolygon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rbPolygon.Name = "rbPolygon";
-            this.rbPolygon.Size = new System.Drawing.Size(30, 30);
+            this.rbPolygon.Size = new System.Drawing.Size(22, 24);
             this.rbPolygon.TabIndex = 13;
             this.rbPolygon.UseVisualStyleBackColor = false;
             this.rbPolygon.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
@@ -221,9 +234,10 @@
             this.rbBezier.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.rbBezier.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.rbBezier.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rbBezier.Location = new System.Drawing.Point(111, 3);
+            this.rbBezier.Location = new System.Drawing.Point(83, 2);
+            this.rbBezier.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rbBezier.Name = "rbBezier";
-            this.rbBezier.Size = new System.Drawing.Size(30, 30);
+            this.rbBezier.Size = new System.Drawing.Size(22, 24);
             this.rbBezier.TabIndex = 10;
             this.rbBezier.UseVisualStyleBackColor = false;
             this.rbBezier.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
@@ -239,9 +253,10 @@
             this.rbRectangle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.rbRectangle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.rbRectangle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rbRectangle.Location = new System.Drawing.Point(183, 3);
+            this.rbRectangle.Location = new System.Drawing.Point(137, 2);
+            this.rbRectangle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rbRectangle.Name = "rbRectangle";
-            this.rbRectangle.Size = new System.Drawing.Size(30, 30);
+            this.rbRectangle.Size = new System.Drawing.Size(22, 24);
             this.rbRectangle.TabIndex = 12;
             this.rbRectangle.UseVisualStyleBackColor = false;
             this.rbRectangle.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
@@ -257,9 +272,10 @@
             this.rbEclipse.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.rbEclipse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.rbEclipse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rbEclipse.Location = new System.Drawing.Point(147, 3);
+            this.rbEclipse.Location = new System.Drawing.Point(110, 2);
+            this.rbEclipse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rbEclipse.Name = "rbEclipse";
-            this.rbEclipse.Size = new System.Drawing.Size(30, 30);
+            this.rbEclipse.Size = new System.Drawing.Size(22, 24);
             this.rbEclipse.TabIndex = 11;
             this.rbEclipse.UseVisualStyleBackColor = false;
             this.rbEclipse.CheckedChanged += new System.EventHandler(this.rb_CheckedChanged);
@@ -268,36 +284,26 @@
             // 
             this.plDraw.BackColor = System.Drawing.Color.White;
             this.plDraw.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.plDraw.Location = new System.Drawing.Point(0, 75);
+            this.plDraw.Location = new System.Drawing.Point(0, 32);
+            this.plDraw.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.plDraw.Name = "plDraw";
-            this.plDraw.Size = new System.Drawing.Size(1348, 646);
+            this.plDraw.Size = new System.Drawing.Size(1011, 554);
             this.plDraw.TabIndex = 1;
             this.plDraw.Paint += new System.Windows.Forms.PaintEventHandler(this.plDraw_Paint);
             this.plDraw.MouseDown += new System.Windows.Forms.MouseEventHandler(this.plDraw_MouseDown);
             this.plDraw.MouseMove += new System.Windows.Forms.MouseEventHandler(this.plDraw_MouseMove);
             this.plDraw.MouseUp += new System.Windows.Forms.MouseEventHandler(this.plDraw_MouseUp);
             // 
-            // btnFill
-            // 
-            this.btnFill.BackColor = System.Drawing.Color.Transparent;
-            this.btnFill.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFill.Location = new System.Drawing.Point(685, 3);
-            this.btnFill.Name = "btnFill";
-            this.btnFill.Size = new System.Drawing.Size(30, 30);
-            this.btnFill.TabIndex = 18;
-            this.btnFill.UseVisualStyleBackColor = false;
-            this.btnFill.Visible = false;
-            this.btnFill.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(1348, 721);
+            this.ClientSize = new System.Drawing.Size(1011, 586);
             this.Controls.Add(this.plDraw);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Paint";
@@ -323,7 +329,6 @@
         private System.Windows.Forms.RadioButton rbBezier;
         private System.Windows.Forms.RadioButton rbLine;
         private System.Windows.Forms.Panel plDraw;
-        private System.Windows.Forms.Label lblTest;
         private System.Windows.Forms.Button btnFill;
     }
 }

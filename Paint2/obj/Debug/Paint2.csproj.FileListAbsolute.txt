@@ -17,3 +17,12 @@ E:\lập trình windows\Giua ki LTW\Paint2\obj\Debug\Paint2.Properties.Resources
 E:\lập trình windows\Giua ki LTW\Paint2\obj\Debug\Paint2.csproj.GenerateResource.cache
 E:\lập trình windows\Giua ki LTW\Paint2\obj\Debug\Paint2.exe
 E:\lập trình windows\Giua ki LTW\Paint2\obj\Debug\Paint2.pdb
+E:\Git\Paint2\bin\Debug\Paint2.exe.config
+E:\Git\Paint2\bin\Debug\Paint2.exe
+E:\Git\Paint2\bin\Debug\Paint2.pdb
+E:\Git\Paint2\obj\Debug\Paint2.csprojAssemblyReference.cache
+E:\Git\Paint2\obj\Debug\Paint2.Form1.resources
+E:\Git\Paint2\obj\Debug\Paint2.Properties.Resources.resources
+E:\Git\Paint2\obj\Debug\Paint2.csproj.GenerateResource.cache
+E:\Git\Paint2\obj\Debug\Paint2.exe
+E:\Git\Paint2\obj\Debug\Paint2.pdb

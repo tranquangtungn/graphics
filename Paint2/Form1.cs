@@ -27,9 +27,10 @@ namespace Paint2
         public Form1()
         {
             InitializeComponent();
-            khoiTao();
+            Init();
         }
-        private void khoiTao()
+        //khởi tạo
+        private void Init()
         {
             plDraw.SetDoubleBuffered();
             cbBoxStyle.DataSource =
